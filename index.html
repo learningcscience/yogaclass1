@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+*{
+	margin:0px;
+	box-sizing:border-box;
+
+
+}
+
+.header {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	
+	  padding:40px;
+	  padding:40px;
+	  padding-top:5px;
+	  padding-bottom:5px;
+	  font-size:12px;
+}
+
+
+.header a{
+
+	    font-size: 20px;
+	    border: none;
+	    padding: 6px 14px;
+	    background-color:white;
+	    border:1px solid green;
+
+
+}
+
+.header h1 {
+
+	color:green;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.border{
+
+	
+	display:flex;
+	height: 700px;	
+	width: 100%;
+	background: url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	background-size:cover;
+
+	align-items:center;
+	justify-content:center;
+	color:white;
+	
+
+}
+
+.search{
+
+	display:flex;
+	height:30px;
+}
+
+.search input{
+
+	flex:5;
+	outline:none;
+	border:none;
+	
+
+}
+
+.search button{
+
+	flex:1;
+	outline:none;
+	border:none;
+	background-color:#0080008a;
+}
+
+.row button{
+	
+	padding: 10px 20px;
+	border:none;
+	outline:none;
+	background-color:white;
+	border:1px solid green;
+
+}
+.row button:hover{
+
+
+	background-color:green;
+	transition: 1s;
+
+}
+
+[class*="col-"]{
+	float: left;
+	padding:10px;
+
+
+}
+
+
+	@media only screen and (min-width: 600px) {
+	  /* For desktop: */
+ 	 .col-1 {width: 8.33%;}
+	  .col-2 {width: 16.66%;}
+	  .col-3 {width: 25%;}
+	  .col-4 {width: 33.33%;}
+	  .col-5 {width: 41.66%;}
+	  .col-6 {width: 50%;}
+	  .col-7 {width: 58.33%;}
+	  .col-8 {width: 66.66%;}
+	  .col-9 {width: 75%;}
+	  .col-10 {width: 83.33%;}
+	  .col-11 {width: 91.66%;}
+	  .col-12 {width: 100%;}
+             }
+
+@media only screen and (max-width: 600px) {
+
+	[class*="col-"]{
+		
+		width: 100%;	
+
+	}
+	img{
+		max-width : 100%;
+		height: auto;
+
+	}
+
+}
+
+
+i.fa.fa-star {
+    	background: #00A145;
+    	color: orange;
+   	padding: 2px 3px;
+   	border-radius: 20px;
+
+}
+
+
+a {
+  	  text-decoration: none;
+  	  color: black;
+}
+
+.colum{
+	text-align:center;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+li {
+ 	   background-color: #00000024;
+	   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+#items {
+
+	text-align:center;
+}
+
+
+h3 {
+
+	text-align:center;
+	padding:20px;
+	color:green;
+	padding-top:10px;
+}
+</style>
+
+<body>
+
+<div class="header">
+
+	<div class="head1">
+		<h1>YOGA CLASS<h1>
+	</div>
+
+	<div class="head2">
+		<a href="login.html">Login</a>
+	</div>
+
+
+
+</div>
+
+
+	<div class="border">
+		
+		<div class="umm">	
+	
+		<h1>Yoga is a mind and body practice.</h1>
+
+		<div class="search">
+
+			<input type="text">
+			<button>Search</button>	
+
+		</div>
+	
+	          </div>
+
+	</div>
+
+<div class="row">
+
+	<div class="col-3">
+
+		<img src="https://images.unsplash.com/photo-1551656927-4f07ba471344?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"width="100%">
+		<span>Yoga is a mind and body practice. </span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+		</div><br>
+		<button>Yoga Teacher </button>
+
+	</div>
+
+	<div class="col-3">
+		<img src="https://images.unsplash.com/photo-1588286840104-8957b019727f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8eW9nYSUyMHRlYWNoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"width="100%">
+		<span>Yoga is a mind and body practice. </span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+
+		</div><br>
+		<button>Yoga Teacher </button>
+	</div>
+
+	<div class="col-3">
+		<img src="https://images.unsplash.com/photo-1602192509154-0b900ee1f851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"width="100%">
+		<span>Yoga is a mind and body practice. </span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+
+		</div><br>
+		<button>Yoga Teacher</button>
+
+	</div>
+
+	<div class="col-3">
+		<img src="https://images.unsplash.com/photo-1577253313708-cab167d2c474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"width="100%">
+		<span>Yoga is a mind and body practice. </span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+
+		</div><br>
+		<button>Yoga Teacher</button>
+
+	</div>
+</div>
+
+<div class="row">
+
+	<div class="col-3">
+
+		<img src="https://images.unsplash.com/photo-1551656927-4f07ba471344?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"width="100%">
+		<span>The Best Yoga Retreats in France to Compare.</span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+		</div><br>
+		<button>Yoga Teacher </button>
+
+	</div>
+
+	<div class="col-3">
+		<img src="https://images.pexels.com/photos/2647471/pexels-photo-2647471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"width="100%">
+		<span>The Best Yoga Retreats in France to Compare.</span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+
+		</div><br>
+		<button>Yoga Teacher </button>
+	</div>
+
+	<div class="col-3">
+		<img src="https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"width="100%">
+		<span>The Best Yoga Retreats in France to Compare.</span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+
+		</div><br>
+		<button>Yoga Teacher</button>
+
+	</div>
+
+	<div class="col-3">
+		<img src="https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHlvZ2F8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"width="100%">
+		<span>The Best Yoga Retreats in France to Compare.</span><br>
+		<div clas="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+
+		</div><br>
+		<button>Yoga Teacher</button>
+
+	</div>
+</div>
+
+
+      </div><hr><hr>
+
+	<div class="colum">
+
+		<div class="col-3">
+		
+
+			<h2>Yoga Teacher</h2><br><hr>
+			<li><a href="#"> Mingyuri</a><br><br></li>
+			<li><a href="#">Sadhguru</a><br><br></li>
+			<li><a href="#">Swami </a><br><br></li>
+
+
+		</div>
+
+		<div class="col-3">
+	
+			<h2>Service</h2><br><hr>
+			<li><a href="#">About US</a><br><br></li>
+			<li><a href="#">Contact US</a><br><br></li>
+			<li><a href="#">Yoga Class</a><br><br></li>
+
+
+	
+
+		</div>
+		<div class="col-3">
+			<h2>Login From</h2><br><hr>
+			<li><a href="#">Facebook</a><br><br></li>
+			<li><a href="#">Youtube</a><br><br></li>
+			<li><a href="#">Twitter</a><br><br></li>
+
+
+		</div>
+
+
+		<div class="col-3">
+			<h2>Icons</h2><br><hr>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a><br><br></li>
+			<li><a href="#"><i class="fa fa-youtube-square"></i></a><br><br></li>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a><br><br></li>
+
+
+		</div>
+
+
+	</div>
+
+
+
+<div class="copyright">
+		
+	<h3>&copy; 2021 yogaclass.. All Rights Reserved.</h3>
+</div>
+
+
+
+
+</body>
+
+</htrml>
